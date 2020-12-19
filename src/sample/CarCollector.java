@@ -4,13 +4,12 @@ import sample.model.Car;
 
 import java.util.List;
 
-public class CarMaker {
+public class CarCollector {
     public int getCar (List<Car> cars){
-        int totalCar = 0;
+        var totalCar = 0;
         for (Car c: cars){
             totalCar += c.getNumOfCars();
         }
         return totalCar;
     }
-
 }

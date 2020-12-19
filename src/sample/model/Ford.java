@@ -9,7 +9,7 @@ public class Ford extends Car{
 
     public Ford (int numberOfSeats, String driveTrain,
                   String engineType, double engineCapacity, boolean isTurboCharged) {
-        super(CarName.FORD, CarColor.BLACK,"Truck","F150",50);
+        super(CarName.FORD, CarColor.GREEN,"Truck","F150",50);
         this.numberOfSeats = numberOfSeats;
         this.driveTrain = driveTrain;
         this.engineType = engineType;

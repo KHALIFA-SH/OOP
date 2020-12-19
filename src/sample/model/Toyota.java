@@ -1,7 +1,7 @@
 package sample.model;
 
 public class Toyota extends Car {
-    int numberOfSeats;
+    int    numberOfSeats;
     String driveTrain;
     String engineType;
     double engineCapacity;
